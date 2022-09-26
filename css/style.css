@@ -15,6 +15,7 @@
 .header-top{
 	position:fixed;
 	width:100%;
+	z-index:99;
 }
 .head-info{
 	width:100%;
@@ -109,17 +110,19 @@
 }
 .banner-para{
 	padding:24% 10px;
+	width:50%;
 }
 .para-color{
 	display:inline-block;
 	color:#cda45e;
 }
 .banner-para h1{
-	font-size:50px;
+	font-size:47px;
 	color:white;
 	font-family: "Poppins", sans-serif;
 }
-.banner-para p{
+.banner-para p{ 
+    font-family: "Playfair Display", serif;
 	font-size:25px;
 	color:white;
 	padding-bottom:15px;
@@ -141,12 +144,12 @@
 	display:inline-block;
 }
 .bbox{
-	position:relative;
+	width:50%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .video-btn{
-	position: absolute;
-    left: 850px;
-    bottom: 20px;
 	background-color:rgba(205, 164, 94, 0.4);
 	width:96px;
 	height:96px;
