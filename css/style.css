@@ -54,8 +54,8 @@
 }
 .logo{
 	width:20%;
-	padding-top:20px;
-    padding-bottom:20px;	
+	padding-top:25px;
+    padding-bottom:25px;	
 	
 }
 .logo-1{
@@ -67,16 +67,16 @@
 }
 .menu{
 	width:65%;
-	padding-top:25px;
+	padding-top:30px;
 	font-size:15px;
 	text-align:center;
 }
-.menu div .line:hover{
+.line:hover{
 	color:#cda45e;
 }
 .line{
-	font-size:13px;
-	padding:0 10px;
+	font-size:15px;
+	padding:0 15px;
 	text-decoration:none;
 	color:white;
 	font-family:"Open Sans", sans-serif;
@@ -84,7 +84,7 @@
 .menu-btn{
 	font-size:15px;
 	width:15%;
-	padding-top:20px;
+	padding-top:30px;
     font-family: "Open Sans", sans-serif;	
 	text-align:right;
 }
@@ -115,12 +115,12 @@
 	color:#cda45e;
 }
 .banner-para h1{
-	font-size:45px;
+	font-size:50px;
 	color:white;
 	font-family: "Poppins", sans-serif;
 }
 .banner-para p{
-	font-size:21px;
+	font-size:25px;
 	color:white;
 	padding-bottom:15px;
 	
@@ -140,7 +140,79 @@
 	padding:12px;
 	display:inline-block;
 }
-
+.bbox{
+	position:relative;
+}
+.video-btn{
+	position: absolute;
+    left: 850px;
+    bottom: 20px;
+	background-color:rgba(205, 164, 94, 0.4);
+	width:96px;
+	height:96px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.video-btn a:after{
+	content:"";
+	position:absolute;	
+	width:70px;
+	height:70px;
+	border:3px solid rgba(205, 164, 94, 0.4);
+	border-radius:50%;
+	transform:scale(0);
+	transition:all 3s #cda45e;
+	transform-origin:center center;
+	animation-duration:1s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease;
+	animation-name:flow;
+}
+@keyframes flow{
+	0%{
+		transform: scale(1);
+		opacity:1;
+	}
+	100%{
+		transform: scale(1.4);
+		opacity:0;
+	}
+}
+.video-btn a{
+	background-color:#cda45e;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.video-btn a:hover{
+	background-color:#cda45e;
+	width:96px;
+	height:96px;
+	border-radius:50%;
+}
+.video-btn a i{
+	font-size:19px;
+}
+.video-btn a i{
+	text-decoration: none;
+    color: white;
+	position:absolute;
+	transition-duration:0.5s;
+	transform:scale(1);
+	transition-timing-function:ease-in-out;
+	opacity:1;
+}
+.video-btn a i:hover{
+	transform:scale(8);
+	opacity:0;
+	transition-duration:0.5s;
+}
 /* --- about-section ---*/
 .about-section{
 	padding:40px 0;
@@ -1168,6 +1240,7 @@
 
 /*  contact footer sec start*/
 .footer-contact-sec{
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	margin-top:40px;
 	background-color:#0c0b09;
 	padding:60px 0px;
@@ -1197,6 +1270,7 @@
 	margin:0px 15px 25px 0px;
 }
 .footer-box-01 a{
+	text-decoration: none;
 	background-color:#28251f;
 	padding:10px;
 	margin-right:4px;
