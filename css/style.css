@@ -1,7 +1,7 @@
 .container{
 	width:1170px;
 	margin:0px auto;
-	display:flex;	
+    display:flex;	
 	flex-wrap:wrap;
 }
 .container-fluid{
@@ -226,7 +226,6 @@
 }
 .abt-cont{
 	width:50%;
-	height:450px;
 	padding:10px;
 	
 }
@@ -317,7 +316,6 @@
 }
 .sect-title{
 	width:100%;
-	height:80px;
 	background-color:#0c0b09;
 	
 }
@@ -345,7 +343,6 @@
 .why-boxs{
 	margin-top:20px;
 	width:33.33%;
-	height:250px;
 	padding:10px;
 	
 }
@@ -500,7 +497,6 @@
 }
 .check-title{
 	width:100%;
-	height:90px;
 	background-color:#0c0b09;
 }
 .check-title span{
@@ -523,7 +519,6 @@
 }
 .boxs-1{
 	width:25%;
-	height:350px;
 	background-color:#0c0b09;
 	font-family:"Open Sans", sans-serif;
 }
@@ -550,7 +545,6 @@
 }
 .boxs-2{
 	width:50%;
-	height:350px;
 	background-color:#0c0b09;
 }
 .boxs-2 h3{
@@ -575,7 +569,6 @@
 }
 .boxs-3{
 	width:25%;
-	height:350px;
 	background-color:#0c0b09;
 	padding-top:20px;
 }
@@ -593,8 +586,7 @@
 	padding:60px;
 }
 .etitle{
-	width:100%;
-	height:100px;	
+	width:100%;	
 }
 .etitle span{
 	color:#f4f4f4;
@@ -665,8 +657,7 @@
 	background-color:#0c0b09;
 }
 .table-box1{
-	width:100%;
-	height:80px; 
+	width:100%; 
 	background-color:#0c0b09;
 }
 .table-box1 span{
@@ -689,8 +680,7 @@
     margin: 4px 14px;
 }
 .table-box2{
-	width:100%;
-	height:300px; 
+	width:100%; 
 	background-color:#0c0b09;
 	padding-top:15px;
 }
@@ -716,7 +706,6 @@
 }
 .text-area{
 	width:98%;
-	height:100px;
 	padding:10px;
 	background-color:#0c0b09;
 	border:1px solid #625b4b;
@@ -740,12 +729,10 @@
 /*---about section start---*/
 .test-section{
 	width:100%;
-	height:600px;
 	background-color:#1a1814;
 }
 .about-header{
 	width:100%;
-	height:100px;
 	background-color:#1a1814;
 }
 .about-header h5{
@@ -771,8 +758,7 @@
     margin: 4px 14px;
 }
 .about-box-1{
-	width:33.3%;
-	height:270px; 
+	width:33.3%; 
 	background-color:#1a1814;
 	position:relative;
 	padding:25px 28px;
@@ -796,8 +782,7 @@
 	border-radius:50%;	
 }
 .about-box-2{
-	width:33.3%;
-	height:270px; 
+	width:33.3%; 
 	background-color:#1a1814;
 	position:relative;
 	padding:25px 28px;
@@ -821,7 +806,6 @@
 }
 .about-box-3{
 	width:33.3%;
-	height:270px; 
 	background-color:#1a1814;
 	position:relative;
 	padding:25px 28px;
@@ -847,7 +831,6 @@
 	bottom:-20px;	
 }
 .about-space{
-	height:200px;
 	width:100%;
 	background-color:#1a1814;
     display:flex;	
@@ -911,12 +894,10 @@
 .img-box{
 	width:25%;
 	overflow:hidden;
-	height:240px;
 	border-right: 4px solid #454035;
 	border-bottom: 4px solid #454035;
 }
 .img-box img{
-	height:100%;
 	width:100%;
 	transition: all ease-in-out 0.4s;
 }
@@ -980,8 +961,7 @@
 .chef-boxs .hover .chef-con{
 	color:white;
 	text-align:center;
-	width:100%;
-	height:425px;
+	width:100%
 	position:absolute;
 	padding-top:348px;
 	transition:0.4s;
@@ -1030,7 +1010,6 @@
 	margin-top:50px;
 	width:100%;
 	background-color:#0c0b09;
-	height:80px;
 }
 .map-head h5{
 	font-size:14px;

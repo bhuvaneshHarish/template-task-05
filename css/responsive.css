@@ -1,0 +1,25 @@
+/*---for mobile responsive----*/
+
+@media (max-width:567px){
+	.container{
+		width:100%;
+	}
+	.language{
+		display:none;
+	}
+	.menu{
+		display:none;
+	}
+	.menu-btn{
+		display:none;
+	}
+	.logo{
+		width:100%;
+	}
+	.banner-para{
+		width:100%;
+	}
+	.col-12{
+		width:100% !important;
+	}
+}
