@@ -693,19 +693,19 @@
 }
 .form-space{
 	font-size:12px;
-	padding-left:5px;
+	padding-left:15px;
 	padding-right:200px;
-	padding-bottom:8px;
+	padding-bottom:15px;
 	padding-top:8px;
 	background-color:#0c0b09;
 	border:1px solid #625b4b;
 	color:white;
 }
 .table-text{
-	padding:15px;
+	padding:10px;
 }
 .text-area{
-	width:98%;
+	width:100%;
 	padding:10px;
 	background-color:#0c0b09;
 	border:1px solid #625b4b;
@@ -937,16 +937,16 @@
 	display:flex;
 	flex-wrap:wrap;
 }
-.chef-boxs .main-box{
+.main-box{
 	width:33.33%;
 	position:relative;
 	overflow:hidden;
 }
-.chef-boxs .main-box img{
+.main-box img{
 	width:440px;
 	padding:0px 13px;
 }
-.chef-boxs .hover{
+.full-box{
 	width:100%;
 	opacity:0;
 	position:absolute;
@@ -958,7 +958,7 @@
 	justify-content:center;
 	align-items:flex-end;
 }
-.chef-boxs .hover .chef-con{
+.chef-con{
 	color:white;
 	text-align:center;
 	width:100%
@@ -970,21 +970,21 @@
 	transform:translateY(-10px);
 	
 }
-.chef-boxs .hover .chef-con h4{
+.chef-con h4{
 	font-size:19px;
 	margin-bottom:3px;
 }
-.chef-boxs .hover .chef-con span{
+.chef-con span{
 	font-family: "Poppins", sans-serif;
 	display:block;
 	font-size:12px;
 	margin-bottom:15px;
 }
-.chef-boxs .hover .chef-con a{
+.chef-con a{
 	margin:0 7px;
 	text-decoration:none;
 }
-.chef-boxs .hover .chef-con a i{
+.chef-con a i{
 	
     font-size:19px;
 	color:white;
@@ -992,11 +992,11 @@
 .chef-icon{
 	display:flex;
 }
-.chef-boxs .hover:hover{
+.full-box:hover{
 	background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
 	opacity:1;
 }
-.chef-boxs .hover .chef-con:hover{
+.chef-con:hover{
 	transform:translateY(-30px);
 	transition:0.4s;
 }
@@ -1221,23 +1221,16 @@
 /*contect sec end*/
 
 /*  contact footer sec start*/
-.footer-contact-sec{
+.footer-contact{
 	border-top: 1px solid rgba(255, 255, 255, 0.2);
 	margin-top:40px;
 	background-color:#0c0b09;
 	padding:60px 0px;
 }
-.footer-box-01{
+.footer-box-first{
 	width:25%;	
 }
-.footer-box-02{
-	width:20%;
-}
-.footer-box-03{
-	width:35%;
-	padding-left:30px;
-}
-.footer-box-01 h3{
+.footer-box-first h3{
 	color:#fffff0;
 	font-family: "Poppins", sans-serif;
 	font-weight:300;
@@ -1245,13 +1238,13 @@
 	text-transform:uppercase;
 	margin-bottom:20px;
 }
-.footer-box-01 span{
+.footer-box-first p{
 	color:white;
 	display:block;
 	line-height:22px;
 	margin:0px 15px 25px 0px;
 }
-.footer-box-01 a{
+.footer-box-first a{
 	text-decoration: none;
 	background-color:#28251f;
 	padding:10px;
@@ -1259,65 +1252,63 @@
 	border-radius:50%;
 	color:white;
 }
-.footer-box-01 a i{
+.footer-box-first a i{
 	font-size:14px;
 }
-.footer-box-02 span{
-	display:inline-block;
-	margin-bottom:13px;
+.footer-box-secound{
+	width:20%;
+	text-decoration: none;
+    color: white;
+	font-size:14px;
+}
+.footer-box-secound p{
 	font-size:18px; 
 	color:white;
+	margin-bottom:15px;
 }
-.footer-box-02 ul li{
+.footer-box-secound ul li{
 	font-family: "Poppins", sans-serif;
 	margin-bottom:20px;
 	display:block; 
 	
 }
-.footer-box-02 ul li i{
+.footer-box-secound ul li i{
 	color:#cda45e;
 }
-.fotter-box-2{
-	color:white; 
-	text-decoration:none; 
-	padding:5px;
-	font-size:14px;
-}
-.footer-box3{
+
+.footer-box-three{
 	color:white;
 	text-decoration:none; 
-	padding:10px;
 	font-size:14px;
+	width:35%;
+	padding-left:7px;
 }
-.footer-box-03 span{
-	display:inline-block;
+.footer-box-three p{
+	display:block;
 	margin-bottom:13px;
 	font-size:18px;
 	color:white;
-}
-.footer-box-03 p{
 	font-family: "Poppins", sans-serif;
 	font-size:15px;
 	margin-bottom:30px;
-	color:white;
 	line-height:20px;
 }
-.footer-box-03 .subs .input{
+.footer-box-three .subs .input{
 	background-color:#28251f;
 	width:380px;
 	padding:5px 10px;
 	border-radius:50px;	
 }
-.footer-box-03 .subs .input input{
+.footer-box-three .subs .input input{
 	background-color:#28251f;
 	padding:8px 0px;
 	width:295px;
 	border:1px solid #28251f;
 }
-.footer-box-03 .subs{
+.footer-box-three .subs{
 	position:relative;
 }
-.footer-box-03 .subs a{ 
+.footer-box-three .subs a{ 
     text-decoration:none;
 	font-family: "Poppins", sans-serif;
 	font-size:15px;
@@ -1329,11 +1320,11 @@
 	bottom:0;
 	color:white;
 }
-.footer-box-01 a:hover{
+.footer-box-first a:hover{
 	background-color:#cda45e;
 	transition:all 0.4 ease;
 }
-.footer-box-02 li a:hover{
+.footer-box-secound	 li a:hover{
 	color:#cda45e;
 }
 .foot-end{ color:white;
