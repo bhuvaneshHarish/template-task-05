@@ -10,8 +10,14 @@
 	.header-menu{
 		width:100%;
 	}
+	.p-1{
+		padding-top:350px;
+	}
 	.col-12{
 		width:100% !important;
+	}
+	.t-center{
+		text-align:center;
 	}
 	.col-11{
 		width:50%;
@@ -28,9 +34,11 @@
 		font-size:27px;
 		text-align:center;
 	}
-	.align-contant{
-		font-size:18px;
-		text-align:center;
+	.p-bottom{
+		margin-bottom:20px;
+	}
+	.banner-para p{
+		font-size:19px;
 	}
 	.menu{
 		display:none;
@@ -43,9 +51,6 @@
 	}
 	.flex-column-reverse{
 		flex-direction:column-reverse !important;
-	}
-	.box-2{
-		display:inline-block;
 	}
 	.1boxes{
 		padding-right:10px;
@@ -64,17 +69,17 @@
 		width:100%;
 	}
 	.header-content{
-		padding-top:430px;
+		padding-top:115px;
 		text-align:center;
 	}
-	.v-btn{
-		padding-bottom:100px;
+	.t-center{
+		text-align:center;
 	}
 	.d-none{
 		display:none;
 	}
 	.col-12{
-		width:100%;
+		width:100% !important;
 	}
 	.col-12 h1{
 		font-size:35px;
@@ -102,13 +107,15 @@
 		padding-right:165px;
 	}
 	.col-4{
-		width:33.33%;
+		width:33.33% !important;
 	}
 	.col-5{
-		width:50%;
-	}
-	.table-space{
-		padding:10px;
+		width:50% !important;
 	}
 	
+}
+@media (min-width:576px) and (max-width:768px){
+	.col-12{
+		width:100%;
+	}
 }

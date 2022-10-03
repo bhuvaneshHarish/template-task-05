@@ -115,9 +115,17 @@
 	background-repeat:no-repeat;
 	height:700px;
 }
+.banner-box{
+	width:100%;
+	padding-top:250px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+    align-items: center;
+}
 .banner-para{
-	padding:280px 10px 24px 10px;
 	width:60%;
+	padding-bottom:40px;
 }
 .banner-para span{
 	display:inline-block;
@@ -160,7 +168,6 @@
 	display: flex;
     justify-content: center;
     align-items: center;
-	padding-top:290px;
 }
 .video-btn{
 	background-color:rgba(205, 164, 94, 0.4);
@@ -242,16 +249,15 @@
 	
 }
 .abt-cont  h2{
-	padding-top:20px;
+	padding-top:10px;
 	color:white;
-	font-size:30px;
+	font-size:25px;
+	line-height:30px;
 }
 .abt-cont p{
 	line-height:25px;
 	color:white;
 	font-size:17px;
-	padding-top:15px;
-	margin-bottom:20px;
 	font-family:"Open Sans", sans-serif;
 }
 .about-para{
@@ -263,7 +269,7 @@
 }
 .about-para li{
 	margin-bottom:15px;
-	font-size:18px;
+	font-size:15px;
 	line-height:25px;
 }
 .about-para li i{
@@ -271,7 +277,8 @@
 }
 .abt-img{
 	width:50%;
-    position:relative;	
+    position:relative;
+   	
 }
 .abt-img img{
 	border:2px solid gray;
