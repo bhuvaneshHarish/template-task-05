@@ -34,17 +34,25 @@
       <div class="logo">
          <a class="logo-1" href="#" >RESTAURANTLY</a>
       </div>
-          <div class="menu d-none">
-		    <ul>
-	           <li><a class="line" href="#">Home</a></li>
-		       <li><a class="line"href="#">About</a></li>
-		       <li><a class="line" href="#">Menu</a></li>
-		       <li><a class="line" href="#">Specials</a></li>
-		       <li><a class="line" href="#">Events</a></li>
-		       <li><a class="line" href="#">Chefs</a></li>
-		       <li><a class="line" href="#">Gallery</a></li>
-		       <li><a class="line" href="#">Droup Down</a></li>
-		       <li><a class="line" href="#">Contact</a></li>  
+	   <!--respomsive-start-->
+		     <div class="menu-close-btn " id="mobile-btn">
+			    <div class="bars-lt"></div>
+				<div class="bars-ct"></div>
+				<div class="bars-rt"></div>
+			 </div>
+		<!--responsive end-->
+          <div class="menu">
+		        <ul>
+	               <li><a class="line" href="#">Home</a></li>
+		            <li><a class="line"href="#">About</a></li>
+		           <li><a class="line" href="#">Menu</a></li>
+		           <li><a class="line" href="#">Specials</a></li>
+		           <li><a class="line" href="#">Events</a></li>
+		           <li><a class="line" href="#">Chefs</a></li>
+		           <li><a class="line" href="#">Gallery</a></li>
+		           <li><a class="line" href="#">Droup Down</a></li>
+		           <li><a class="line" href="#">Contact</a></li>
+                </ul>				   
           </div>
        <div class="menu-btn d-none">
                 <a class="button" href="#">BOOK A TABLE</a>
@@ -57,7 +65,7 @@
   <!-- banner section -->
 <section class="banner-section header-image">
   <div class="container">
-    <div class="banner-box p-1">
+    <div class="banner-box p-1 p-d">
       <div class="banner-para col-12 header-content">
 	        <h1 class="h1">Welcome to <span>Restaurantly</span></h1>
 		    <p>Delivering great food for more than 18 years!</p>
@@ -69,7 +77,10 @@
 	
 	  <div class="bbox col-12">
 	      <div class="video-btn">
-			 <a href="#"><i class="icofont-ui-play icon-01"></i><i class="icofont-ui-play icon-02"></i></a>
+			 <a href="#">
+			    <i class="icofont-ui-play icon-01"></i>
+			    <i class="icofont-ui-play icon-02"></i>
+			 </a>
 	      </div>
      </div>
 	</div>
@@ -548,8 +559,8 @@
 						<div class="row2 table-space">
 							<input class="1boxes col-12" type="text" placeholder="Subject">
 						</div>
-						<div class="row3 table-space">
-						   <textarea class="1box col-12" type="text" placeholder="Message"></textarea>
+						<div class="row3 table-space b-pad-rt">
+						   <textarea class="1boxes col-12" type="text" placeholder="Message"></textarea>
 						<div class="rbutton">
 						   <a href="#">Send Message</a>
 					     </div>
@@ -611,6 +622,15 @@
 			<p>Designed by <a href="#">BootstrapMade</a></p>
 		</div>
 <!--footer end end--->
+     <script type="text/javascript">
+	let mobileBtn = document.getElementById("mobile-btn");
+	let mobileNav = document.getElementsByClassName("menu")[0];
+
+	mobileBtn.addEventListener("click", ()=>{
+		mobileBtn.classList.toggle("active-btns");
+		mobileNav.classList.toggle("active-menu");
+	});
+</script>
 </body>
 </html>
    
